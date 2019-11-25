@@ -1,5 +1,5 @@
 #
-#			Repository Link : 
+#			Repository Link : https://github.com/Pythonista7/DatabaseLab
 #
 #-------------------------------------------------------------------------------------------
 #
@@ -46,7 +46,8 @@ CREATE TABLE ORDERS(
                         order_date DATE,
                         cust_id INTEGER,
                         salesman_id INTEGER,
-                        FOREIGN KEY (cust_id) REFERENCES CUSTOMER(cust_id) ON DELETE SET NULL
+                        FOREIGN KEY (cust_id) REFERENCES CUSTOMER(cust_id) ON DELETE SET NULL,
+                        FOREIGN KEY (salesman_id) REFERENCES SALESMAN(salesman_id) ON DELETE SET NULL
 					);
 
 
@@ -73,5 +74,5 @@ INSERT INTO ORDERS VALUES
                         (51,4500,'2019-1-20',10,2000),
                         (52,1000,'2019-6-24',13,2000),
                         (53,3500,'2019-8-04',14,3000),
-                        (54,550,'2019-1-20',12,2000)
+                        (54,550,'2019-1-20',12,3000)
 					;
