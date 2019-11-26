@@ -5,7 +5,6 @@
 #
 #					MOVIES DATABASE
 #
-
 #-------------------------------------------------------------------------------------------
 #	ACTOR(Act_id, Act_Name, Act_Gender)
 #	DIRECTOR(Dir_id, Dir_Name, Dir_Phone)
