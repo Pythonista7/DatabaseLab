@@ -69,7 +69,6 @@ WHERE S.salesman_id=O.salesman_id
 SELECT * FROM top_order;
 
 
-
 #QUERY5:	Demonstrate the DELETE operation by removing salesman with id 1000. All
 #			his orders must also be deleted.
 DELETE FROM SALESMAN
